@@ -1,0 +1,717 @@
+html {
+  overflow-y: scroll;
+ }
+ 
+ :root {
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+ 
+ /* :root body {
+   position: absolute;
+ }
+ 
+ /* body {
+  width: 100vw;
+  overflow: hidden;
+ }  */
+
+
+
+body {
+    
+    color: #777;
+    
+  }
+  h3, h4 {
+    /* margin: 10px 0 30px 0; */
+    letter-spacing:2 px;      
+    /* font-size: 20px; */
+    color: white !important;
+  }
+
+
+.btn-primary
+{
+    background-color: #ffbd39 !important;
+    margin-top: 25px;
+    
+}
+  p {font-size: 16px;}
+
+  .margin 
+  {
+      margin-bottom: 45px;
+      
+    
+    }
+  #profile-img{
+    box-shadow: 0 0 10px 6px #ffbd39;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 230px;
+    height: 230px;
+   
+}
+.name-dec
+{
+    margin-top: 190px;
+    font-size: 60px;
+    padding: 10px;
+    letter-spacing: 3px;
+} 
+
+
+
+  .container-fluid {
+    padding-top: 70px;
+    /* padding-bottom: 70px; */
+    background-color: #2d2d30;
+    
+  }
+  .nav-tabs li a {
+    color: #fff ;
+  }
+  .navbar {
+    font-family: 'Eczar', serif;
+    margin-bottom: 0;
+    /* background-color: #2d2d30; */
+    border: 0;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    font-weight: 500;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: black !important;
+  }
+  .navbar .navbar-brand
+  {
+    color: #ffbd39 !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #ffbd39 !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent !important;
+  }
+
+
+  
+.resume-wrap {
+    
+  font-family: 'Courgette', cursive;
+    width: auto;
+    
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+   }
+    .resume-wrap .date {
+      font-weight: 900;
+      font-size: 26px;
+      color: #ffbd39; 
+      /* justify-content: center;
+      display: flex; */
+  }
+    .resume-wrap p {
+      font-size: 16px;
+      /* justify-content: center;
+      display: flex; */
+      color: white;
+     }
+    .resume-wrap .position {
+      font-size: 20px;
+    /* justify-content: center;
+       display: flex; */
+      color: white;
+     }
+  .resume-wrap .special
+  {
+   /* justify-content: center;
+       display: flex; */
+      font-size: 19px;
+      color: white;
+    
+  }
+  .resume-wrap .per{
+    /*justify-content: center;
+       display: flex; */
+      font-size: 20px;
+      font-weight: 500;
+      color: #ffbd39;
+     
+  }
+   
+    @media (prefers-reduced-motion: reduce) {
+      .progress-bar {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } } */
+  
+   .progress-bar-striped {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem; }
+  
+  
+  .progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .progress-bar-animated {
+        -webkit-animation: none;
+        animation: none; } }
+  
+        .progress-wrap {
+          width: 100%;
+          margin-bottom: 30px;
+          }
+          .progress-wrap h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: 500; 
+            font-family: 'Courgette', cursive;}
+  
+         .progress {
+          height: 10px !important;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          background: #1a1a1a;
+          overflow: visible; }
+  
+        .progress-bar {
+          background: #ffbd39 !important;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          font-size: 12px;
+          line-height: 1.2;
+          color: #000000;
+          font-weight: 600;
+          position: relative;
+          overflow: visible;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px; 
+      
+    }
+
+
+          .progress-bar:after {
+            position: absolute;
+            top: -2px;
+            right: 0;
+            width: 34px;
+            height: 34px;
+            content: '';
+            background: #ffbd39 !important;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            -ms-border-radius: 2px;
+            border-radius: 2px;
+            opacity: 0; }  
+
+
+.progress span {
+            position: absolute ;
+            display: inline;
+            top: 10px ;
+            right:50px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff !important;
+         } 
+
+
+
+         .ftco-section {
+            padding: 7em 0;
+            position: relative; }
+            @media (max-width: 767.98px) {
+              .ftco-section {
+                padding: 6em 0; } }
+                .big-2
+                {
+                    color: white;
+                }
+  .col-sm-4
+  {
+      color: white !important;
+  }             
+
+
+
+
+
+
+
+
+
+   @import 'https://fonts.googleapis.com/css?family=Lily+Script+One';
+
+
+  .custom
+  {
+      position: relative;
+      
+      margin-left: auto;
+  }
+
+  .card {
+      
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    height: 200px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+  }
+  .flipper {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+    perspective: 1000px;
+    font-family: 'Courgette', cursive; 
+  }
+  /* flip the pane when hovered */
+  .flipper.flip .card {
+    transform: rotateY(180deg);
+  }
+  .front,
+  .back {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Courgette', cursive; 
+  }
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    height: 100%;
+  }
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+    height: 100%;
+  }
+.back p{
+  font-size: 16px;
+}
+
+  .goback {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 20px;
+    left: 0px;
+   
+    cursor: pointer;
+    text-decoration: none;
+  }
+.goback p{
+    color: white;
+    
+}
+
+
+#name
+{
+  font-family: 'Dancing Script', cursive;
+  padding: 30px;
+    font-size: 50px;
+    color: #fff;
+    line-height: 55px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes name {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39, 0 0 80px #ffbd39;
+  }
+}
+
+.glow
+{
+    color: white !important;
+    font-size: 40px;
+    padding-bottom:70px;
+   padding-top: 70px;
+   text-transform: uppercase;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39, 0 0 80px #ffbd39;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.exp-date
+{
+    font-size: 18px;
+    color:#ffbd39 !important ;
+    line-height: 60px;
+}
+.exp-date a
+{
+  font-size: 18px;
+  color:#ffbd39 !important ;
+  text-decoration-line: none;
+}
+
+.back p{
+    color:#ffbd39 !important ;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+
+
+
+#exper1
+{
+    float: left;
+}
+
+#exper3
+{
+    float: right;
+}
+
+.resume-wrap1 {
+  
+  height: auto;
+    width: auto;
+    max-width: 650px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    
+   }
+    .resume-wrap1 .date {
+      font-weight: 900;
+      font-size: 26px;
+      color: #ffbd39; 
+      justify-content: center;
+      display: flex;
+     
+  }
+    .resume-wrap1 p {
+      font-size: 16px;
+      justify-content: center;
+      display: flex;
+      color: white;
+      
+     }
+    .resume-wrap1 .position {
+      font-size: 20px;
+     justify-content: center;
+      display: flex;
+      color: white;
+      
+     }
+  .resume-wrap1 .special
+  {
+    justify-content: center;
+      display: flex;
+      font-size: 19px;
+      color: white;
+    
+  }
+  .resume-wrap1 .per{
+    justify-content: center;
+      display: flex;
+      font-size: 20px;
+      font-weight: 500;
+      color: #ffbd39;
+      
+     
+  }
+
+
+.comp-name
+{
+    font-size: 20px;
+    color: #ffbd39 !important;
+    font-family: 'Courgette', cursive; 
+}
+
+
+.date-work
+{  
+    font-size: 13px;
+    color: white !important;
+    font-family: 'Courgette', cursive; 
+  }
+
+
+
+.list-data li{
+  font-size: 15px;
+    color: white !important; 
+    font-family: 'Courgette', cursive; 
+    
+}
+
+.list-data li::before
+{
+  
+  color: #ffbd39 !important; 
+}
+
+.resume-wrap2 {
+    
+  
+  width: auto;
+  height: auto;
+  
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  justify-content: center;
+ }
+
+
+.pub-para
+{
+  color: white !important;
+  font-size: 15px ;
+  font-family: 'Courgette', cursive; 
+
+}
+
+.pub-para mark{
+  color: #ffbd39 !important;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.paper-link a
+{
+  color: #ffbd39 !important;
+  font-size: 18px ;
+}
+
+.resume-wrap2 ul li
+{
+  font-size: 35px;
+  color: #ffbd39 !important;
+ 
+}
+
+
+#myCarousel
+{
+  font-family: 'Courgette', cursive; 
+}
+
+
+
+.wrap {
+  width: auto;
+  /* margin: 30px auto; */
+  background: rgba(255, 255, 255, 0.1);
+}
+.compe
+{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color:white !important ;
+}
+.acheive-div
+{
+  
+ border-bottom:1px dotted white !important;
+width: auto;
+ 
+}
+.where
+{
+  font-weight: 700;
+  font-size: 17px;
+  color:#ffbd39 !important ;
+}
+
+.when
+{
+  font-size: 13px;
+  color: white !important;
+}
+
+.what
+{
+  font-size: 17px;
+  color:white !important ;
+}
+
+.compet-names
+{
+  color:#ffbd39 !important ;
+  font-size: 23px;
+}
+
+.compet-names li{
+  list-style-type: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+.address
+{
+  color: white;
+  font-size: 22px;
+  margin-bottom: 50px;
+  
+
+}
+.n,.s,.v,.st,.pc,.container-fluid{
+ color: white !important;
+}
+
+/* .foot-icons a
+{
+  /* color:#ffbd39 !important ; 
+  font-size: 40px;
+  padding-right: 60px;
+  
+} */
+
+
+
+
+
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2020-8-9 18:49:58
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.foot-icons a {
+  
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+  
+}
+
+.foot-icons a:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: #ffbd39;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.foot-icons a:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ffbd39;
+  filter: blur(3px);
+}
+
+.foot-icons a:hover {
+  color: #ffbd39;
+  box-shadow: 0 0 15px #ffbd39;
+  text-shadow: 0 0 15px #ffbd39;
+}
